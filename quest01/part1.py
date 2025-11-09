@@ -1,5 +1,5 @@
 def main():
-    with open("quest1/data/input1.txt", "r") as file:
+    with open("quest01/data/input1.txt", "r") as file:
         names = file.readline().strip().split(",")
         file.readline()
         instructions = file.readline().strip().split(",")
